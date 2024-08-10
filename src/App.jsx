@@ -1,4 +1,5 @@
-import Button from './Button/Button'
+import Student  from './Student.jsx'
+import './index.css'
 function App() {
  
   return(
@@ -6,8 +7,9 @@ function App() {
  
  <>
     
-  <Button></Button>
+    <Student name = "Spongebob" age = {30} isStudent = {true}></Student>
     
+    <Student/>
   
     </>
     
