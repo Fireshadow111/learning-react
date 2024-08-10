@@ -1,5 +1,4 @@
-import Card from './Card'
-
+import Button from './Button/Button'
 function App() {
  
   return(
@@ -7,14 +6,7 @@ function App() {
  
  <>
     
-    <Card/>
-    
-    <Card/>
-
-    <Card/>
-    <Card/>
-    
-  
+  <Button></Button>
     
   
     </>
