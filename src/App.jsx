@@ -1,5 +1,6 @@
-import Student  from './Student.jsx'
 import './index.css'
+import UserGreeting from "./UserGreeting";
+
 function App() {
  
   return(
@@ -7,9 +8,7 @@ function App() {
  
  <>
     
-    <Student name = "Spongebob" age = {30} isStudent = {true}></Student>
-    
-    <Student/>
+  <UserGreeting isLoggedIn = {true} username = "Muhammad"></UserGreeting>
   
     </>
     

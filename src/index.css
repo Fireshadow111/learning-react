@@ -1,7 +1,8 @@
-.student{
-    font-family: Arial;
-    font-style: italic;
-
+.welcome-messege{
+  color: red;
 }
 
 
+.login-prompt{
+  color: green;
+}
